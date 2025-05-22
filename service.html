@@ -49,18 +49,16 @@
             <div class="col-lg-9">
               <div class="top-bar-right">
                
-                <div class="text">
-                  <h2>+92 310-3363009</h2>
-                  <h2>+92 333 7599963</h2>
-
-                  <p>Call Us For Free Consultation</p>
+               <div class="text">
+                 <a href="tel:+92 310-3363009"><h2>+92 310-3363009</h2></a> 
+                  <p >Call Us For Free Consultation</p>
                 </div>
-                <div class="social">
+                <!-- <div class="social">
                   <a href=""><i class="fab fa-twitter"></i></a>
                   <a href=""><i class="fab fa-facebook-f"></i></a>
                   <a href=""><i class="fab fa-linkedin-in"></i></a>
                   <a href=""><i class="fab fa-instagram"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -467,10 +465,10 @@
           <div class="section-header">
             <h2>Subscribe Our Newsletter</h2>
           </div>
-          <div class="form">
-            <input class="form-control" placeholder="Email here" />
-            <button class="btn">Submit</button>
-          </div>
+          <form class="form" method="POST" action="mail-handler.php">
+            <input class="form-control" name="newsletter_email" type="email" placeholder="Email here" required />
+            <button class="btn" type="submit">Submit</button>
+          </form>
         </div>
       </div>
       <!-- Newsletter End -->
@@ -535,13 +533,13 @@
 
                     <p><i class="fa fa-phone-alt"></i>+92 310 3363009</p>
                     <!-- <p><i class="fa fa-envelope"></i>info@example.com</p> -->
-                    <div class="footer-social">
+                    <!-- <div class="footer-social">
                       <a href=""><i class="fab fa-twitter"></i></a>
                       <a href=""><i class="fab fa-facebook-f"></i></a>
                       <a href=""><i class="fab fa-youtube"></i></a>
                       <a href=""><i class="fab fa-instagram"></i></a>
                       <a href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </div>
@@ -572,6 +570,16 @@
       <!-- Footer End -->
 
       <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+      <!-- WhatsApp Floating Button -->
+      <a
+        href="https://wa.me/923103363009"
+        class="whatsapp-float"
+        target="_blank"
+        title="Chat on WhatsApp"
+        rel="noopener"
+      >
+        <i class="fab fa-whatsapp"></i>
+      </a>
     </div>
 
     <!-- JavaScript Libraries -->
