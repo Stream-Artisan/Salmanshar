@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Salmanshar || Contact</title>
+    <title>Salmanshar Law Firm || Contact</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="Law Firm Website Template" name="keywords" />
     <meta content="Law Firm Website Template" name="description" />
@@ -48,9 +48,9 @@
             </div>
             <div class="col-lg-9">
               <div class="top-bar-right">
-               <div class="text">
-                 <a href="tel:+92 310-3363009"><h2>+92 310-3363009</h2></a> 
-                  <p >Call Us For Free Consultation</p>
+                <div class="text">
+                  <a href="tel:+92 310-3363009"><h2>+92 310-3363009</h2></a>
+                  <p>Call Us For Free Consultation</p>
                 </div>
                 <!-- <div class="social">
                   <a href=""><i class="fab fa-twitter"></i></a>
@@ -136,7 +136,7 @@
       <div class="contact">
         <div class="container">
           <div class="section-header">
-            <h2>Contact Us</h2>
+            <h2>Contact Salmanshar Law Firm</h2>
           </div>
           <div class="row">
             <div class="col-md-6">
@@ -147,12 +147,12 @@
                     <h2>Location</h2>
                     <p>
                       <strong>Primary Address:</strong> Shop No.4 Al Nadeem
-                      center Near Baloch Ice Cream Gulistan e johar Block 14
+                      center Near Baloch Ice Cream Gulistan e Johar Block 14
                       Karachi.
                     </p>
                     <p>
                       <strong>Secondary Address: </strong> Office 606 6th Floor
-                      Al Fatima Chambers،, Shambhu Nath St, near Passport Off,
+                      Al Fatima Chambers, Shambhu Nath St, near Passport Off,
                       Artillery Maidan, Karachi, Karachi City, Sindh 74100,
                       Pakistan
                     </p>
@@ -166,18 +166,25 @@
                     <p>+92 310 3363009</p>
                   </div>
                 </div>
-                <!-- <div class="contact-item">
+                <div class="contact-item">
                   <i class="fa fa-envelope"></i>
                   <div class="contact-text">
                     <h2>Email</h2>
-                    <p>info@example.com</p>
+                    <p>info@salmanshar.com</p>
                   </div>
-                </div> -->
+                </div>
               </div>
             </div>
+
             <div class="col-md-6">
               <div class="contact-form">
-                <form method="POST" action="mail-handler.php">
+                <form method="POST" action="send_email.php">
+                  <!-- Sender (hidden) -->
+                  <input
+                    type="hidden"
+                    name="from_email"
+                    value="info@salmanshar.com"
+                  />
                   <div class="form-group">
                     <input
                       type="text"
@@ -218,25 +225,26 @@
                   </div>
                 </form>
               </div>
+              <!-- Google Map Embed Start -->
+
+              <div class="mb-4">
+                <iframe
+                  src="https://www.google.com/maps?q=Office+606+6th+Floor+Al+Fatima+Chambers,+Shambhu+Nath+St,+near+Passport+Off,+Artillery+Maidan,+Karachi,+Karachi+City,+Sindh+74100,+Pakistan&output=embed"
+                  width="100%"
+                  height="300"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+
+              <!-- Google Map Embed End -->
             </div>
           </div>
         </div>
       </div>
       <!-- Contact End -->
-
-      <!-- Newsletter Start -->
-      <div class="newsletter">
-        <div class="container">
-          <div class="section-header">
-            <h2>Subscribe Our Newsletter</h2>
-          </div>
-          <form class="form" method="POST" action="mail-handler.php">
-            <input class="form-control" name="newsletter_email" type="email" placeholder="Email here" required />
-            <button class="btn" type="submit">Submit</button>
-          </form>
-        </div>
-      </div>
-      <!-- Newsletter End -->
 
       <!-- Footer Start -->
       <div class="footer">
@@ -244,17 +252,16 @@
           <div class="row">
             <div class="col-md-6 col-lg-4">
               <div class="footer-about">
-                <h2>About Us</h2>
+                <h2>About Salmanshar Law Firm</h2>
                 <p>
-                  Salman Ali, Advocate High Court is legal practitioner and
-                  consultant based at Karachi, he has dealt with the cases
-                  related to family, civil, criminal, and matters related to
-                  constitutional petitions. Mr. Ali also represents individual
-                  clients as well the institutional clients.
+                  Salman Ali, Advocate High Court is a legal practitioner and
+                  consultant based in Karachi, dealing with family, civil,
+                  criminal, and constitutional petition cases. Mr. Ali
+                  represents both individual and institutional clients.
                 </p>
                 <p>
-                  Mr. Salman Ali is law graduate, and also have served with
-                  non-profit sector on various positions.
+                  Mr. Salman Ali is a law graduate and has also served in the
+                  non-profit sector in various positions.
                 </p>
               </div>
             </div>
@@ -273,38 +280,33 @@
                 <div class="col-md-6 col-lg-4">
                   <div class="footer-link">
                     <h2>Useful Pages</h2>
-                    <a href="">About Us</a>
-                    <a href="">Practices</a>
-                    <a href="">Attorneys</a>
-                    <a href="">Case Studies</a>
-                    <a href="">FAQs</a>
+                    <a href="about.html">About Us</a>
+                    <a href="service.html">Practices</a>
+                    <a href="team.html">Attorneys</a>
+                    <!-- <a href="">Case Studies</a> -->
+                    <a href="index.html#faq">FAQs</a>
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <div class="footer-contact">
                     <h2>Get In Touch</h2>
                     <p>
-                      <i class="fa fa-map-marker-alt"></i>Primary Address: Shop
-                      No.4 Al Nadeem center Near Baloch Ice Cream Gulistan e
-                      johar Block 14 Karachi.
+                      <i class="fa fa-map-marker-alt"></i>
+                      <!-- Map will show on hover/focus -->
+                      <span class="footer-map-popover" tabindex="0" data-toggle="popover" data-trigger="focus hover" data-html="true" title="Primary Address Map" data-content='<iframe src="https://www.google.com/maps?q=Shop+No.4+Al+Nadeem+center+Near+Baloch+Ice+Cream+Gulistan+e+Johar+Block+14+Karachi&output=embed" width="250" height="150" style="border:0;"></iframe>'>
+                        Primary Address: Shop No.4 Al Nadeem center Near Baloch Ice Cream Gulistan e johar Block 14 Karachi.
+                      </span>
                     </p>
                     <p>
-                      <i class="fa fa-map-marker-alt"></i>Secondary Address:
-                      Office 606 6th Floor Al Fatima Chambers،, Shambhu Nath St,
-                      near Passport Off, Artillery Maidan, Karachi, Karachi
-                      City, Sindh 74100, Pakistan
+                      <i class="fa fa-map-marker-alt"></i>
+                      <!-- Map will show on hover/focus -->
+                      <span class="footer-map-popover" tabindex="0" data-toggle="popover" data-trigger="focus hover" data-html="true" title="Secondary Address Map" data-content='<iframe src="https://www.google.com/maps?q=Office+606+6th+Floor+Al+Fatima+Chambers,+Shambhu+Nath+St,+near+Passport+Off,+Artillery+Maidan,+Karachi,+Karachi+City,+Sindh+74100,+Pakistan&output=embed" width="250" height="150" style="border:0;"></iframe>'>
+                        Secondary Address: Office 606 6th Floor Al Fatima Chambers, Shambhu Nath St, near Passport Off, Artillery Maidan, Karachi, Karachi City, Sindh 74100, Pakistan
+                      </span>
                     </p>
                     <p><i class="fa fa-phone-alt"></i>+92 333 7599963</p>
                     <p><i class="fa fa-phone-alt"></i>+92 310 3363009</p>
-
-                    <!-- <p><i class="fa fa-envelope"></i>info@example.com</p> -->
-                    <!-- <div class="footer-social">
-                      <a href=""><i class="fab fa-twitter"></i></a>
-                      <a href=""><i class="fab fa-facebook-f"></i></a>
-                      <a href=""><i class="fab fa-youtube"></i></a>
-                      <a href=""><i class="fab fa-instagram"></i></a>
-                      <a href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div> -->
+                    <p><i class="fa fa-envelope"></i>info@salmanshar.com</p>
                   </div>
                 </div>
               </div>
@@ -312,13 +314,7 @@
           </div>
         </div>
         <div class="container footer-menu">
-          <div class="f-menu">
-            <a href="">Terms of use</a>
-            <a href="">Privacy policy</a>
-            <a href="">Cookies</a>
-            <a href="">Help</a>
-            <a href="">FQAs</a>
-          </div>
+        
         </div>
         <div class="container copyright">
           <div class="row">
@@ -356,5 +352,16 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+$(function () {
+  $('[data-toggle="popover"]').popover({
+    container: 'body',
+    placement: 'top',
+    html: true,
+    trigger: 'hover focus',
+    sanitize: false
+  });
+});
+</script>
   </body>
 </html>
