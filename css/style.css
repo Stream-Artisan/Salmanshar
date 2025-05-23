@@ -1630,6 +1630,7 @@ a:focus {
     /* Remove problematic properties */
     left: unset;
     right: unset;
+    margin-bottom: 0!important;
     margin-left: 0;
     margin-right: 0;
     overflow-x: hidden; 
