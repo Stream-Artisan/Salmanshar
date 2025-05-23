@@ -5,7 +5,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // Set the recipient email
-$admin_email = "info@Salmanshar.com";
+$admin_email = "info@salmanshar.com";
 
 // PHPMailer includes and use statements (move to top)
 require 'PHPMailer/PHPMailer.php';
