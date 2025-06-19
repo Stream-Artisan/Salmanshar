@@ -1623,11 +1623,10 @@ a:focus {
 .footer {
     position: relative;
     /* margin-top: 45px; */
-    padding-top: 200px;
+    padding-top: 60px; /* Reduced from 200px */
     background: #121518;
     color: #ffffff;
-    width: 100%; /* Ensure full width */
-    /* Remove problematic properties */
+    width: 100%;
     left: unset;
     right: unset;
     margin-bottom: 0!important;
